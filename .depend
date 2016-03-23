@@ -1,7 +1,7 @@
 wall.mli:
 cell.mli:
-labyrinth.mli: Cell
+labyrinth.mli: Cell Wall
 wall.ml:
 cell.ml:
-labyrinth.ml: Array Cell
-main.ml: Cell Labyrinth
+labyrinth.ml: Array Cell Wall
+main.ml: Cell Labyrinth Wall
